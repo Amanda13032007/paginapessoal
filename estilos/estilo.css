@@ -1,0 +1,14 @@
+h1{
+    font-family: comic-sans, cursive;
+    color: #cc3ac0;
+}
+
+h2{
+    color: #9932CC;
+    font-family: comic-sans, cursive;
+}
+
+p{
+    background-color: rgb(54, 124, 190);
+    font-family: monospace, courier;
+}
