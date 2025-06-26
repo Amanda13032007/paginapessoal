@@ -1,5 +1,11 @@
 body{
     text-align: center;
+    background-image: url("../imagens/logoSerra.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 50px;
+    background-attachment: fixed;
+
 }
 h1{
     font-family: comic-sans, cursive; text-align: center;
