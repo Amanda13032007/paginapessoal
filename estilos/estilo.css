@@ -1,6 +1,7 @@
 body{
     text-align: center;
-    background-image: url("../imagens/logoSerra.png");
+    background-image: url(../imagens/logoSerra.png);
+    background-color: #7FFFD4 ;
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 50px;
@@ -32,6 +33,10 @@ p{
     background-image: url("../imagens/watercolor.png");
     background-color: #000000;
 }
+.avatar {
+    height: 200px; width: 200px;
+}
+
 a {
     text-decoration: nome;
     color: #e100ff;
@@ -44,8 +49,3 @@ a:hover {
 a:active {
     color: rgb(255, 0, 157);
 }
-
-
-
-
-
