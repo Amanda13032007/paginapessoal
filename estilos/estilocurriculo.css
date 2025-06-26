@@ -1,0 +1,43 @@
+body {
+        font-family: Arial, sans-serif;
+        width: 600px;
+        margin: auto;
+        .container { 
+        display: flex; 
+        gap: 10px;
+    }
+
+        .div1, .div2, .div6 {
+            border: 1px solid red;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .div1 {
+            width: 150px;
+        }
+
+        .div2 {
+            width: 300px;
+        }
+
+        .div6 {
+            flex: 1;
+            text-align: center;
+        }
+
+        .formacao, .complementares, .softskills {
+            border: 1px solid red;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+}
