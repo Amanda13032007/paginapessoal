@@ -42,6 +42,8 @@ a {
     color: #9932CC;
     font-weight: bold;
     transition: 0.3s;
+    font-family: comic-sans, cursive
+    
 }
 a:hover {
     color: #070707;
