@@ -1,0 +1,34 @@
+h1{
+    font-family: comic-sans, cursive; text-align: center;
+    color: #3383c4;
+}
+
+h2{
+    font-family: Times New Roman; text-align: center;
+    color: #131111;
+}
+
+div{
+    background-image: url("../imagens/watercolor.png");
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0.2);
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.botao{
+    border: 2px solid #ccc;
+    border-radius: 600px;
+    box-shadow: 4px 4px 10px rgba(0,0,0.2);
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+a{
+    font-family: comic-sans, cursive;
+    text-align: center;
+    color: #9b1ad6; 
+}
