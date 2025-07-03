@@ -20,11 +20,11 @@ div{
 
 .botao{
     border: 2px solid #ccc;
-    border-radius: 600px;
+    border-radius: 60px;
     box-shadow: 4px 4px 10px rgba(0,0,0.2);
     padding: 15px;
     margin: 20px auto;
-    max-width: 300px;
+    max-width: 70px;
 }
 
 a{
