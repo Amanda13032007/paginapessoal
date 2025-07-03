@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="estilos/estiloformulario.css">
+</head>
+<body>
+    <div class="caixa-formulario">
+        <div class="cabecalho-formulario">GERENCIAMENTO DE USUÁRIO</div>
+        <form>
+            <div class="grupo-campo">
+                <label for="usuario">Login</label>
+                <input type="text" id="usuario" name="usuario">
+            </div>
+
+            <div class="grupo-campo">
+                <label for="chave">Senha</label>
+                <input type="password" id="chave" name="chave">
+            </div>
+
+            <div class="grupo-campo">
+                <label for="situacao">Status</label>
+                <select id="situacao" name="situacao">
+                    <option value="ativo" selected>Ativo</option>
+                    <option value="inativo">Inativo</option>
+                </select>
+            </div>
+
+            <div class="grupo-campo grupo-radio">
+                <label>Função</label>
+                <div>
+                    <input type="radio" id="funcTecnico" name="funcao" value="tecnico">
+                    <label for="funcTecnico">Técnico</label>
+
+                    <input type="radio" id="funcProfessor" name="funcao" value="professor">
+                    <label for="funcProfessor">Professor</label>
+
+                    <input type="radio" id="funcAluno" name="funcao" value="aluno">
+                    <label for="funcAluno">Aluno</label>
+                </div>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="dataCadastro">Data de Cadastro</label>
+                <div class="campo-data">
+                    <input type="text" id="dataCadastro" name="dataCadastro" placeholder="dd/mm/aaaa">
+                    <span class="icone-calendario">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7z"/></svg>
+                    </span>
+                </div>
+            </div>
+
+            <div class="grupo-campo grupo-radio">
+                <label>Perfil</label>
+                <div>
+                    <input type="radio" id="perfilVisitante" name="perfil" value="visitante">
+                    <label for="perfilVisitante">Convidado</label>
+
+                    <input type="radio" id="perfilAdmin" name="perfil" value="admin">
+                    <label for="perfilAdmin">Administrador</label>
+                </div>
+            </div>
+
+            <div class="grupo-campo alinhado-cima">
+                <label for="mensagem">Observações</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+            </div>
+
+            <div class="grupo-campo">
+                <label>Permissões</label>
+                <div class="caixa-checkbox">
+                    <div class="item-checkbox">
+                        <input type="checkbox" id="permissaoCompras" name="permissoes[]" value="compras">
+                        <label for="permissaoCompras">Compras</label>
+                    </div>
+                    <div class="item-checkbox">
+                        <input type="checkbox" id="permissaoBiblioteca" name="permissoes[]" value="biblioteca">
+                        <label for="permissaoBiblioteca">Biblioteca</label>
+                    </div>
+                    <div class="item-checkbox">
+                        <input type="checkbox" id="permissaoAcademico" name="permissoes[]" value="academico">
+                        <label for="permissaoAcademico">Acadêmico</label>
+                    </div>
+                    <div class="item-checkbox">
+                        <input type="checkbox" id="permissaoDocumentos" name="permissoes[]" value="documentos">
+                        <label for="permissaoDocumentos">Documentação</label>
+                    </div>
+                    <div class="item-checkbox">
+                        <input type="checkbox" id="permissaoRH" name="permissoes[]" value="rh">
+                        <label for="permissaoRH">Recursos Humanos</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grupo-botoes">
+                <button type="submit">Salvar</button>
+                <button type="button">Excluir</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
